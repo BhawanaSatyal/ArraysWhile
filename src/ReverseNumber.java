@@ -5,13 +5,13 @@
 public class ReverseNumber {
 
 
-    public static void main(String[] args) {
-        int a = 123456;
+    public static void main(String[] args) { // main method
+        int a = 123456; // declared value
         int b =0;
         int c;
 
 
-        while (a !=0){
+        while (a !=0){  // condition
 
             c = a %10;
             b = b * 10 + c;
@@ -20,7 +20,7 @@ public class ReverseNumber {
 
 
         System.out.println("Reverse Number is: " +b);// output
-        System.out.println("\n\n\n");
+        System.out.println("\n\n\n"); // prints new line
     }
 
 }

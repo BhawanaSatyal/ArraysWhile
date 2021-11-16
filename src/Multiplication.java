@@ -4,22 +4,22 @@ public class Multiplication {
 
 
          public static void multi(int n) {
-            int i = 1;
+            int i = 1;  // declared variable
 
             do{
-                System.out.print(n * i + " \t");
+                System.out.print(n * i + " \t"); // output with calculation
 
                 i ++;
             } while(i <= 3);
         }
 
-        public static void main(String[] args) {
+        public static void main(String[] args) {  // main method
             int i = 1;
             do{
                 multi(i);
                 i++;
 
             } while (i <= 3);
-            System.out.println("\n \n \n \n \n");
+            System.out.println("\n \n \n \n \n"); //  prints new line
         }
     }

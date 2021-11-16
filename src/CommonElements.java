@@ -3,13 +3,13 @@
 public class CommonElements {
     public static void main(String[] args) { // main method
 
-        String[] arr1 = {"Car", "House", "Office", "Animals"}; // declaring variables
+        String[] arr1 = {"Car", "House", "Office", "Animals"}; // declaring string array variables
 
         String[] arr2 = {"Rice", "Pasta", "Car", "Office"};
 
         System.out.println("The common elements are :"); // prints statement
         int i =0;
-        while (i<arr1.length){
+        while (i<arr1.length){    // condition
 
             int j =0;
             while (j<arr2.length){

@@ -6,7 +6,7 @@ public class TotalACount
 
 
         public static void main(String[] args) { // main method
-            String string = "My name is Abraham";
+            String string = "My name is Abraham"; // value given to string
 
             int c = 0;
             int i = 0;
@@ -19,7 +19,7 @@ public class TotalACount
                 }
                 i++;
             }
-                System.out.println("Total number of 'a' or 'A' in a sentence is : " + c +"\n \n \n \n");// output
+                System.out.println("Total number of 'a' or 'A' in a sentence is : " + c +"\n \n \n \n");// output + new line
 
             }
         }
