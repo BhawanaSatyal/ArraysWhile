@@ -19,7 +19,7 @@ public class TotalACount
                 }
                 i++;
             }
-                System.out.println("Total number of 'a' or 'A' in a sentence is : " + c);// output
-            System.out.println("\n\n\n");
+                System.out.println("Total number of 'a' or 'A' in a sentence is : " + c +"\n \n \n \n");// output
+
             }
         }

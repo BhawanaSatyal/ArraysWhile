@@ -1,9 +1,8 @@
-//7. WAP to test if an array contains specific value 8. WAP to test the equality of 2 arrays
+//7. WAP to test if an array contains specific value
 public class SpecificValue {
 
         public static void main(String[] args) {
 
-           // int[] num = {1, 2, 3, 4, 5};
             char[] value = {('A'),('B'), ('C')};
             char toFind = 'A';
             boolean a = false;

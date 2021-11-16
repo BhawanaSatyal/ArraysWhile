@@ -1,12 +1,12 @@
 
-//1. Write a Java program to test the equality of two arrays.
+//1. Write a Java program to test the equality of two arrays. // 8. WAP to test the equality of 2 arrays
 public class Equality {
 
         public static void main(String[] args)
         {
             int[] array1 = {2, 5, 7, 9, 11};
 
-            int[] array2 = {2, 3, 4, 5, 6};
+            int[] array2 = {2, 5, 7, 9, 12};
 
             boolean equalOrNot = true;
             int i =0;
@@ -23,12 +23,12 @@ public class Equality {
 
             if (equalOrNot)
 
-                System.out.println("Two Arrays Are Not equal");
+                System.out.println("Two Arrays Are equal");
 
 
             else
 
-                System.out.println("Two Arrays Are Equal");
+                System.out.println("Two Arrays Are not Equal");
 
         }
     }

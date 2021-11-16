@@ -18,6 +18,7 @@ public class Multiplication {
             do{
                 multi(i);
                 i++;
+
             } while (i <= 3);
             System.out.println("\n \n \n \n \n");
         }
